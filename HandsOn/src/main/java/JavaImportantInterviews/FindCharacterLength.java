@@ -3,36 +3,26 @@ package JavaImportantInterviews;
 public class FindCharacterLength {
 
 	public static void main(String[] args) {
-		FindCharacterLength ln = new FindCharacterLength();
-		ln.WOusinglength();
-		ln.Withusinglength();
 		
-	}
-
-	public void WOusinglength() {
+		//In two ways we can achieve this using LOOP and length Function
 		
-		String given = "Selenium Automation Testing";
-				
-				char[] chararray = given.toCharArray();
+		String word = "Welcome to India";
 		
-		int length = 0;
+		char[] findlength = word.toCharArray();
 		
-//		for (char c : chararray) {
-//			length++;
-//		}
-		for(int i=0;i<chararray.length;i++) {
-			length++;
-		}
+		int charcount=0;
 		
-		System.out.println("W/O using Length Function:"+" "+length);
-	}
-	
-public void Withusinglength() {
+		//1st forloop
 		
-		String given = "Selenium Automation Testing";
-		int print = given.length();
-		System.out.println("Using Length Function:"+" "+print);
+//		for(int i=0;i<findlength.length;i++)
+//		{
+//			charcount++;
+//		}System.out.println(charcount);
 		
-	}
-
+		//length function
+		
+		System.out.println(findlength.length);
+		
 }
+}
+

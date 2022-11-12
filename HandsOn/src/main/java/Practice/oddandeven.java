@@ -22,8 +22,8 @@ public class oddandeven {
 			}else {
 				o++;
 			}
-			System.out.println(e);
-		}
+			
+		}System.out.println(e);
 		
 	}
 

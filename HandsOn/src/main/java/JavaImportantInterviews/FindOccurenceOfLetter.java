@@ -3,25 +3,22 @@ package JavaImportantInterviews;
 public class FindOccurenceOfLetter {
 	
 	public static void main(String[] args) {
-		FindOccurenceOfLetter f = new FindOccurenceOfLetter();
-		f.occurenceofletter();
-	}
-
-	
-	public void occurenceofletter() {
 		
-		String word = "Selenium";
+		String word = "Welcome to India";
 		
-		char find = 'e';
-		int count = 0;
+		char findletter = 'o';
+		int countofletter=0;
 		
-		for(int i=0;i<word.length();i++) {
-			if(find==word.charAt(i))
-				count++;
-			
+		for(int i=0;i<word.length();i++)
+		{
+			if(findletter == word.charAt(i))
+				countofletter++;
 		}
-		System.out.println("count of"+ " "+find+" "+"is"+" ="+" "+count);
+		System.out.println("Occourance of O is :"+" "+countofletter);
 		
-	}
+		
+	
+		
 
+}
 }
